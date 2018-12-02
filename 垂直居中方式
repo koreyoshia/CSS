@@ -1,0 +1,4 @@
+单行垂直居中：line-height = height;
+多行垂直居中1种c3属性，transition：translateY（）；；
+第二种采用表格布局： 父级diaplay：table；
+子级display：table-cell；vertical:middle;
