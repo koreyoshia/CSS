@@ -1,0 +1,54 @@
+1.浮动和定位的元素宽度由内容支撑
+
+2.border: 2px solid #f00;
+
+分别是：border-width； border-style； border-color
+
+3.在写页面时，如果其中一个元素内部包含了一些元素，应将所包含元素先写到内部，再进行定位
+
+4.两个属性之间有空可以通过浮动去掉
+
+5.margin: 0 auto; (居中)
+
+6.经过float 和 position 变换后的元素，其宽度等由内容支撑
+
+7.wrapper是居中的
+
+8.给图片设置宽后，其高会等比缩放
+
+9.行高等于高（line-height=height）可以设置居中
+
+10.vertical-align: middle; 设置图片居中
+
+11.若想让a标签充满整个li，可以给a标签写一个display:block;
+
+12.对于既有li标签又有a标签的考虑给谁设置padding就看小手
+
+13.text-indent：文本缩进
+
+14.vertical-align：文本垂直对齐
+
+15.宽高计算属性：width:calc(100% - 100px) ;
+
+16.font-silze:15px/18px (前者表示font-size，后者表示line-height)
+
+17. center/container（让图片充满背景）
+
+background-size: length|percentage|cover|contain;
+
+length
+设置背景图像的高度和宽度。
+第一个值设置宽度，
+第二个值设置高度。
+如果只设置一个值，则第二个值会被设置为 "auto"。
+percentage
+以父元素的百分比来设置背景图像的宽度和高度。
+第一个值设置宽度，
+第二个值设置高度。
+如果只设置一个值，则第二个值会被设置为 "auto"。
+cover
+把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+背景图像的某些部分也许无法显示在背景定位区域中。
+contain
+把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。
+测试
